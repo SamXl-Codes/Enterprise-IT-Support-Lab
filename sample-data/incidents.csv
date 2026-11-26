@@ -1,0 +1,9 @@
+ticket_id,category,priority,status,opened_at,resolved_at,summary
+INC-1001,Identity,P2,Resolved,2026-11-17T08:00:00Z,2026-11-17T10:15:00Z,Fictional sign-in lockout after password expiry
+INC-1002,Endpoints,P3,Resolved,2026-11-17T08:30:00Z,2026-11-18T10:00:00Z,Mock laptop missing standard browser
+INC-1003,Network,P1,Closed,2026-11-17T09:00:00Z,2026-11-17T14:30:00Z,Synthetic branch DNS outage
+INC-1004,Collaboration,P3,In Progress,2026-11-18T12:00:00Z,,Demo meeting room audio fault
+INC-1005,Intune,P2,Resolved,2026-11-18T10:00:00Z,2026-11-18T15:00:00Z,Example endpoint noncompliance
+INC-1006,Identity,P4,Closed,2026-11-15T10:00:00Z,2026-11-16T11:00:00Z,Sample joiner group membership request
+INC-1007,Printing,P3,Open,2026-11-19T09:00:00Z,,Lab print spooler issue
+INC-1008,Security,P1,Resolved,2026-11-19T08:00:00Z,2026-11-19T09:20:00Z,Demo privileged account lockout escalation

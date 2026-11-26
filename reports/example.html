@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Lab Service Desk Report</title>
+<style>
+:root{color-scheme:light}*{box-sizing:border-box}
+body{font-family:system-ui,-apple-system,Segoe UI,sans-serif;color:#1b1d22;background:#f5f4ef;margin:0;padding:36px 18px}
+main{max-width:1040px;margin:auto}h1{margin:6px 0 8px;font-size:clamp(1.75rem,4vw,2.6rem)}
+.subtitle{color:#555;line-height:1.6}.scope{background:#141b22;color:#fff;border-radius:7px;padding:7px 10px;display:inline-block;font-size:12px;font-weight:600}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:28px 0}
+.metric{background:#fff;border:1px solid #dadada;border-radius:12px;padding:20px}
+.metric span{display:block;color:#666;font-size:13px}.metric strong{font-size:32px}
+table{border-collapse:collapse;width:100%;font-size:14px;background:#fff}th,td{text-align:left;padding:12px;border-bottom:1px solid #e5e5e5}
+th{background:#f1f1ef}.table-wrap{overflow:auto;border:1px solid #ddd;border-radius:12px}
+footer{margin-top:20px;color:#777;font-size:12px}
+</style></head><body><main>
+<p class="scope">SYNTHETIC LAB DATA</p><h1>Service desk incident report</h1>
+<p class="subtitle">As of 2026-11-19T12:00:00+00:00. Target times are elapsed clock hours and illustrative only.</p>
+<section class="stats" aria-label="Incident summary"><div class="metric"><span>Total tickets</span><strong>8</strong></div><div class="metric"><span>Resolved/closed</span><strong>6</strong></div><div class="metric"><span>Open</span><strong>2</strong></div><div class="metric"><span>SLA breaches</span><strong>1</strong></div></section>
+<div class="table-wrap"><table><thead><tr><th>ID</th><th>Priority</th><th>Status</th>
+<th>Elapsed hours</th><th>Target hours</th><th>Breached</th></tr></thead><tbody><tr><td>INC-1001</td><td>P2</td><td>Resolved</td><td>2.25</td><td>8</td><td>False</td></tr><tr><td>INC-1002</td><td>P3</td><td>Resolved</td><td>25.5</td><td>48</td><td>False</td></tr><tr><td>INC-1003</td><td>P1</td><td>Closed</td><td>5.5</td><td>4</td><td>True</td></tr><tr><td>INC-1004</td><td>P3</td><td>In Progress</td><td>24.0</td><td>48</td><td>False</td></tr><tr><td>INC-1005</td><td>P2</td><td>Resolved</td><td>5.0</td><td>8</td><td>False</td></tr><tr><td>INC-1006</td><td>P4</td><td>Closed</td><td>25.0</td><td>120</td><td>False</td></tr><tr><td>INC-1007</td><td>P3</td><td>Open</td><td>3.0</td><td>48</td><td>False</td></tr><tr><td>INC-1008</td><td>P1</td><td>Resolved</td><td>1.33</td><td>4</td><td>False</td></tr></tbody></table></div>
+<footer>Generated from fictional sample incidents. Not employer or production service desk metrics.</footer>
+</main></body></html>
